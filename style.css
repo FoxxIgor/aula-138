@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    color: rgb(255, 255, 255);
+}
+.header{
+    width: 100%;
+    padding: 20px;
+}
+.header h1{
+    display: inline;
+}
+.header button{
+    float: right;
+}
+#gameConsole{
+    width: 100%;
+    padding: 10px;
+}
+video{
+    background-image: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding:26px;
+}
+.modal{
+    background-color: rgba(25, 25, 67, 0.611);
+}
+
+.modal-dialog{
+    width: 90%;
+}
+.IMGS{
+    display: inline-block;
+    width: 30%
+}
+
+.buttons{
+    background-color: rgb(44, 44, 129);
+    border: 3px solid rgb(11, 11, 45);
+    border-radius: 15px;
+    padding: 6px;
+    font-size: 20px;
+}
+#startButton{
+    margin-top: 10px;
+}
+#imagemMario{
+    width: 50%;
+    border-radius: 15px;
+    border:3px solid rgb(11, 11, 45);
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+#footerH4{
+    width: 100%;
+    background-color: rgba(29, 29, 57, 0.618);
+    font-size: 30px;
+    margin-bottom: 0;
+    padding:10px;
+}
